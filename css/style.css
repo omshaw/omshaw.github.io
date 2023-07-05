@@ -1249,6 +1249,8 @@ pre code {
   .col-lg-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
+    display: flex;
+    align-items: stretch;
   }
   .col-lg-5 {
     flex: 0 0 41.66667%;
@@ -4466,7 +4468,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: whitesmoke;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
